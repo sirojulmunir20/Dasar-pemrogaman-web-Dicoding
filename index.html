@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kampus.id</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sec">
+    <header class="header">
+        <nav id="Home"> 
+            <h4 class="logo">kampus.id</h4>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+        
+            <ul class="navbar">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Kampus">Kampus</a></li>
+                <li><a href="#Profile">Profile</a></li>
+                <li><a href="#Footer">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content">
+        <article class="textBox">
+            <h2>Top 6 Kampus <br> <span>Populer di Malang</span></h2>
+            <p>Kota Malang dikenal sebagai kota pendidikan karena merupakan salah satu pusat pendidikan di Jawa Timur.</p>
+            <a class="textBox" href="#">Read More</a>
+        </article>
+        <figure class="imgBox">
+            <img src="asset/logo/logo_unisma.png" alt="logo_unisma" class="unisma">
+        </figure>
+        <ul class="thumb">
+            <li><img src="asset/logo/logo_unisma.png" alt="unisma" onclick="imgSlider('asset/logo/logo_unisma.png'); changeBgColor('#18c42c')"></li>
+            <li><img src="asset/logo/logo_ub.png" alt="ub" onclick="imgSlider('asset/logo/logo_ub.png');changeBgColor('#003153')"></li>
+            <li><img src="asset/logo/logo_uinma.png" alt="uinma" onclick="imgSlider('asset/logo/logo_uinma.png'); changeBgColor('#4B6E44')"></li>
+            <li><img src="asset/logo/logo_umm.png" alt="umm" onclick="imgSlider('asset/logo/logo_umm.png'); changeBgColor('#e60c2c')"></li>
+            <li><img src="asset/logo/logo_um.png" alt="um" onclick="imgSlider('asset/logo/logo_um.png');changeBgColor('#46609B')"></li>
+            <li><img src="asset/logo/logo_polinema.png" alt="polinema" onclick="imgSlider('asset/logo/logo_polinema.png'); changeBgColor('#1e1e1e')"></li>  
+    </main>
+
+</section>
+<!-- CARD KAMPUS  -->
+<section class="kampus" id="Kampus">
+    <div class="title">
+        <h3 class="titleText">Daftar Kampus</h3>
+    </div>
+    <div class="wrapper-card">
+        <div class="card">
+            <div class="img-card">
+                <img src="asset/gambar/UNISMA.jpg" alt="unisma">
+            </div>
+            <div class="text">
+                <h4>Universitas Islam Malang</h4>
+                <a class="textBox" href="https://unisma.ac.id/en/homepage-unisma/">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-card">
+                <img src="asset/gambar/ub.jpeg" alt="ub">
+            </div>
+            <div class="text">
+                <h4>Universitas Brawijaya</h4>
+                <a class="textBox" href="https://ub.ac.id/">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-card">
+                <img src="asset/gambar/uin.jpg" alt="uinma">
+            </div>
+            <div class="text">
+                <h4>Universitas Islam Negeri Malang</h4>
+                <a class="textBox" href="https://www.uin-malang.ac.id/">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-card">
+                <img src="asset/gambar/umm.jpg" alt="umm">
+            </div>
+            <div class="text">
+                <h4>Universitas Muhammadiyah Malang</h4>
+                <a class="textBox" href="https://umm.ac.id/">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-card">
+                <img src="asset/gambar/um.jpg" alt="um">
+            </div>
+            <div class="text">
+                <h4>Universitas Negeri Malang</h4>
+                <a class="textBox" href="https://um.ac.id/">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img-card">
+                <img src="asset/gambar/polinema.png" alt="polinema">
+            </div>
+            <div class="text">
+                <h4>Politeknik Negeri Malang</h4>
+                <a class="textBox" href="https://www.polinema.ac.id/">Read More</a>
+            </div>
+        </div>
+       
+    </div>
+</section>
+<!-- Profile -->
+<aside class="profile" id="Profile">
+    <div class="title-2">
+        <h3 class="titleText-2">Profile</h3>
+    </div>
+    <div class="wrapper-card-2">
+        <div class="card-2">
+            <div class="img-card-2">
+                <img src="asset/gambar/profile.jpg" alt="profile">
+            </div>
+            <div class="text-2">
+                <h4>Mohamad Sirojul Munir</h4>
+                <div class="bio">
+                    <p>TTL: Blitar, 20 Agustus 2001</p>
+                    <p>Alamat: Desa Karangrejo Kecamatan Garum Kabupaten Blitar</p>
+                    <p>Profesi: Mahasiswa di Universitas Islam Malang Prodi Akuntansi</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</aside>
+<!-- footer  -->
+<footer class="footer" id="Footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">leadership</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">program</a></li>
+                    <li><a href="#">event</a></li>
+                    <li><a href="#">resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Address</h4>
+                <ul>
+                    <li><a href="#">kampus.id</a></li>
+                    <li><a href="#">jl. Kelud Karangrejo</a></li>
+                    <li><a href="#">Kecamatan Garum Kab. Blitar</a></li>
+                    <li><a href="#">Jawa Timur 66182</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>contact us</h4>
+                <ul class="social-links">
+                    <a href="https://www.facebook.com/sirojul.munir.1291421"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/sirojul.munir__"><i class="fa-brands fa-instagram-square"></i></a>
+                    <a href="https://linkedin.com/in/mohamad-sirojul-munir-4811b9237"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/sirojulmunir20"><i class="fa-brands fa-github-square"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
